@@ -1,14 +1,10 @@
 {
   "name": "dynamo-mongo-worker",
   "version": "1.0.0",
-  "description": "DynamoDB to MongoDB migration worker",
   "main": "worker.js",
   "scripts": {
     "start": "node worker.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1693.0",
     "mongodb": "^7.2.0"
